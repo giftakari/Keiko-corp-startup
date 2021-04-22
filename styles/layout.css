@@ -141,15 +141,15 @@
   }
 
   /* Top header */
-  .top-header-wrapper{
+  main .top-header-wrapper{
     width: 100%;
   }
-  .top-header-wrapper img{
+  main .top-header-wrapper img{
     margin: 0 auto;
     width: 9.6875rem;
     height: 6.25rem;
   }
-  .top-header-wrapper .body-text h1{
+  main .top-header-wrapper .body-text h1{
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: bold;
@@ -158,7 +158,7 @@
     color: #343A40;
     padding-left: 1rem;
   }
-  .top-header-wrapper .body-text p{
+  main .top-header-wrapper .body-text p{
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: normal;
@@ -167,7 +167,7 @@
     color: #A5A8AC;
     padding: 0 1rem;
   }
-.top-header-wrapper .body-text button[type="submit"]{
+  main .top-header-wrapper .body-text button[type="submit"]{
   width: 155px;
   height: 40px;
   background: #EF5B59;
@@ -179,5 +179,37 @@
   line-height: 16px;
   margin-left: 1rem;
   margin-top: 1.625rem;
+}
+/* SUBSCRIBE SECTION */
+main .subscription{
+  width: 100%;
+  height: 400px;
+  background: #F4F7FE;
+  margin-top: 49px;
+}
+main .subscription .subsc-content-wrapper{
+  padding-top: 5rem;
+}
+main .subscription .subsc-content-wrapper img{
+  margin: 0 auto;
+}
+main .subscription .subsc-content-wrapper h3{
+font-style: normal;
+font-weight: bold;
+font-size: var(--mdHeading1);
+line-height: 2rem;
+color: var(--textDark);
+text-align: center;
+margin-top: var(--smMargin);
+}
+main .subscription .subsc-content-wrapper p {
+font-style: normal;
+font-weight: normal;
+font-size: var(--mdText);
+line-height: 16px;
+text-align: center;
+color: #757575;
+margin-top: var(--smMargin);
+
 }
   }

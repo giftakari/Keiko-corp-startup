@@ -38,6 +38,7 @@ body {
   --darkRed: #de4a46;
   --heading: #020100;
   --text: #757575;
+  --textDark: #343A40;
 
   /* text sizes */
   --smText: 0.64rem;
@@ -45,6 +46,7 @@ body {
   --lgText: 1rem;
   --xlText: 1.25rem;
   --smHeading: 1.563rem;
+  --mdHeading1: 1.75rem;
   --mdHeading: 1.953rem;
   --lgHeading: 2.441rem;
   --xlHeading: 3.052rem;
