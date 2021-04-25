@@ -179,6 +179,8 @@
   line-height: 16px;
   margin-left: 1rem;
   margin-top: 1.625rem;
+  border: none;
+  color: #FFFFFF;
 }
 /* SUBSCRIBE SECTION */
 main .subscription{
@@ -206,10 +208,56 @@ main .subscription .subsc-content-wrapper p {
 font-style: normal;
 font-weight: normal;
 font-size: var(--mdText);
-line-height: 16px;
+line-height: 1rem;
 text-align: center;
 color: #757575;
 margin-top: var(--smMargin);
 
+}
+main .subscription .subsc-content-wrapper .input-button{
+  display: grid;
+  grid-template-columns: 185px 140px;
+  grid-gap: 7px;
+  justify-content: center;
+  margin-top: 1rem;
+}
+main .subscription .subsc-content-wrapper .input-button input[type="email"]{
+width: 182.53px;
+height: 32.67px;
+left: 24.18px;
+border: 1px solid #757575;
+box-sizing: border-box;
+border-radius: 5px;
+}
+main .subscription .subsc-content-wrapper .input-button input[type="email"]::placeholder{
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 16px;
+padding-left: 11px;
+color: #757575;
+}
+main .subscription .subsc-content-wrapper .input-button button{
+width: 136px;
+height: 32.67px;
+background: #EF5B59;
+border-radius: 4px;
+font-family: var(--bodyFont);
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 16px;
+text-align: center;
+border: none;
+color: #FFFFFF;
+}
+main .subscription .subsc-content-wrapper p[data="email quote"]{
+font-style: italic;
+font-weight: bold;
+font-size: 12px;
+line-height: 16px;
+text-align: center;
+color: #343A40;
+text-align: center;
 }
   }

@@ -50,6 +50,7 @@ body {
   --mdHeading: 1.953rem;
   --lgHeading: 2.441rem;
   --xlHeading: 3.052rem;
+  --bodyFont: 'Open Sans', sans serif;
 
   /* spacing */
   --smPadding: 0.5rem;
@@ -132,7 +133,7 @@ textarea:focus {
   box-shadow: 0 0 0 3px var(--yellow);
 }
 
-button,
+/* button,
 input[type='submit'] {
   cursor: pointer;
   color: var(--lightBlue);
@@ -150,12 +151,12 @@ input[type='submit']:hover {
   background: var(--darkRed);
   border: 2px solid var(--darkRed);
   box-shadow: var(--mdShadow);
-}
-
+} */
+/* 
 button:focus,
 input[type='submit']:focus {
   box-shadow: var(--focusShadow);
-}
+} */
 
 ul,
 li {
